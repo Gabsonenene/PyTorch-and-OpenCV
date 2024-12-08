@@ -92,3 +92,39 @@ Model wykazał wysoką skuteczność w klasyfikacji znaków drogowych, osiągaj�
 
 ## Link: [GTSRB OpenCV Notebook](https://github.com/Gabsonenene/PyTorch-and-OpenCV/blob/main/GTSRB%20OpenCV.ipynb)
 
+
+# 3. Projekt: Model Predykcji Kolejnego Słowa  
+
+## Opis projektu  
+Celem projektu było stworzenie modelu do przewidywania kolejnego słowa w zdaniu, co jest podstawowym zadaniem w dziedzinie przetwarzania języka naturalnego (NLP). Wykorzystano sieci neuronowe z warstwami LSTM (Long Short-Term Memory), które są efektywne w analizie sekwencji. Model został wytrenowany na przetworzonym zbiorze danych tekstowych, a następnie wykorzystany do generowania przewidywań kolejnych słów.  
+
+## Etapy projektu  
+
+### 1. Przygotowanie danych
+- Wczytanie tekstu z dostępnego zbioru danych.
+- Wstępne przetwarzanie: usuwanie znaków specjalnych i nieistotnych danych.
+- Tokenizacja: zamiana tekstu na sekwencje liczb.
+- Tworzenie zestawów danych treningowych w formie par: sekwencja wejściowa i docelowe słowo.
+
+### 2. Implementacja modelu
+- Wykorzystano warstwy `Embedding` do reprezentacji wyrazów w formie wektorowej.
+- Sieć zawiera warstwy LSTM dla przetwarzania sekwencji oraz warstwę Dense do klasyfikacji następnego słowa.
+- Zastosowano funkcję straty CrossEntropyLoss i optymalizator Adam.
+
+### 3. Proces uczenia
+- Model był trenowany przez 20 epok z zastosowaniem GPU, aby przyspieszyć proces uczenia.
+- Przygotowano wykresy strat i dokładności w celu monitorowania efektywności treningu.
+
+### 4. Testowanie i generowanie wyników
+- Model został przetestowany na zestawie testowym, gdzie wygenerowano przewidywania kolejnych słów dla różnych przykładów.
+- Analiza wyników wskazuje na wysoką skuteczność w generowaniu logicznych kontynuacji zdań.
+
+## Wykorzystane technologie
+- **Język programowania**: Python  
+- **Biblioteki**: TensorFlow, NumPy, Pandas, Matplotlib  
+- **Model**: LSTM z warstwami osadzania (embedding).  
+
+## Wnioski  
+Projekt pokazuje skuteczność LSTM w przetwarzaniu sekwencji i przewidywaniu następnego słowa. Wyniki modelu wskazują na możliwość zastosowania w rzeczywistych scenariuszach, takich jak autouzupełnianie tekstu czy generowanie treści.
+
+## Link: [Next Word Prediction Model - GitHub](https://github.com/Gabsonenene/PyTorch-and-OpenCV/blob/main/Next%20Word%20Prediction%20Model.ipynb)
