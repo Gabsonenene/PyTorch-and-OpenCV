@@ -127,4 +127,4 @@ Celem projektu było stworzenie modelu do przewidywania kolejnego słowa w zdani
 ## Wnioski  
 Projekt pokazuje skuteczność LSTM w przetwarzaniu sekwencji i przewidywaniu następnego słowa. Wyniki modelu wskazują na możliwość zastosowania w rzeczywistych scenariuszach, takich jak autouzupełnianie tekstu czy generowanie treści.
 
-## Link: [Next Word Prediction Model - GitHub](https://github.com/Gabsonenene/PyTorch-and-OpenCV/blob/main/Next%20Word%20Prediction%20Model.ipynb)
+## Link: [Next Word Prediction Notebook](https://github.com/Gabsonenene/PyTorch-and-OpenCV/blob/main/Next%20Word%20Prediction%20Model.ipynb)
