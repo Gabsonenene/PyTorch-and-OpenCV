@@ -121,7 +121,7 @@ Celem projektu było stworzenie modelu do przewidywania kolejnego słowa w zdani
 
 ## Wykorzystane technologie
 - **Język programowania**: Python  
-- **Biblioteki**: TensorFlow, NumPy, Pandas, Matplotlib  
+- **Biblioteki**: PyTorch, NumPy, Pandas, Matplotlib  
 - **Model**: LSTM z warstwami osadzania (embedding).  
 
 ## Wnioski  
